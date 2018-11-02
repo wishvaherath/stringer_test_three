@@ -6,7 +6,7 @@ x = int(f.read())
 y = math.sqrt(x)
 
 
-f = open("sqrt.txt","w")
+f = open(sys.argv[2].strip(),"w")
 f.write(str(y) + "\n")
 
 f.close()
